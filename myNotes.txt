@@ -1,4 +1,7 @@
-Basic workflow
+Details:
+    1. It uses JSDoc to create documentation so, add JSDoc comment when ever you create a new function Here: https://www.youtube.com/watch?v=Nqv6UkTROak
 
+Workflow:
     1. After compling the p5.js library the compiled files (p5.js, p5.min.js, p5.pre-min.js...) are created inside the lib/ directory
     2. Also lib/p5.* is added to .gitignore hence these newly created files are not tracked by git
+    3. Go to lib/empty-example/sketch.js to test the changes. If you are in vs code use live server extension to run the sketch.js
